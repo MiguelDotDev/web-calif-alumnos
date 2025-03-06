@@ -1,0 +1,210 @@
+.bg1 {
+  background: rgb(21, 7, 61);
+  background: linear-gradient(42deg, rgb(21, 7, 61) 0%, rgb(47, 0, 56) 79%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#15073d", endColorstr="#2f0038", GradientType=1);
+  background-attachment: fixed;
+}
+
+.lineDivisora {
+  border: 1px white solid;
+}
+
+.titulo h1 {
+  color: white !important;
+}
+.titulo hr {
+  color: white;
+}
+
+.subDatos {
+  font-family: "Roboto", serif;
+  font-size: 18px;
+  color: rgb(151, 151, 151);
+  font-style: italic;
+  height: 20px;
+}
+
+#subtituloAlertaPeriodo {
+  height: 20px;
+  transition: 0.1s;
+}
+
+.hide .subDatos {
+  display: none !important;
+}
+
+.hide {
+  height: 0 !important;
+}
+
+.bgSec {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(145deg, rgb(2, 0, 36) 0%, rgb(6, 6, 107) 64%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#06066b", GradientType=1);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 12px 20px 12px 0px rgba(0, 0, 0, 0.2);
+}
+.bgSec h1 {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+.bgSec2 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(208deg, rgb(2, 0, 36) 0%, rgb(65, 12, 96) 71%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#410c60", GradientType=1);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 12px 20px 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* ============= INPUTS ============= */
+label:has(+ .inputCustom:focus) {
+  margin-left: 20px;
+}
+
+label:has(+ .inputCustom) {
+  transition: 0.5s;
+}
+
+#fileImgUsr {
+  display: none;
+}
+
+.inputCustom {
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid white !important;
+  color: white;
+}
+
+.inputCustom:disabled {
+  border-bottom: 3px dotted rgb(126, 125, 125) !important;
+  color: rgb(126, 125, 125);
+}
+
+.inputCustom:disabled::-moz-placeholder {
+  color: transparent !important;
+}
+
+.inputCustom:disabled::placeholder,
+select:disabled {
+  color: transparent !important;
+}
+
+label:has(+ .inputCustom:disabled) {
+  color: #6d6d6d;
+}
+
+.inputCustom[type=date]:disabled {
+  color: #6d6d6d;
+}
+
+.inputCustom:focus {
+  color: rgb(175, 175, 175) !important;
+}
+
+.inputCustom::-moz-placeholder {
+  color: rgb(175, 175, 175) !important;
+}
+
+.inputCustom::placeholder,
+select {
+  color: rgb(175, 175, 175) !important;
+}
+
+/* ============= BOTON ============= */
+.btnCustom {
+  background-color: white;
+  font-family: "Roboto";
+}
+
+.animInicio {
+  background-color: transparent;
+}
+
+.transitionAnim {
+  transition: 3s;
+}
+
+.btnCustom:hover {
+  background-color: black;
+}
+
+/*Modal Calificaion*/
+.modal {
+  background-color: rgba(17, 17, 17, 0.5333333333);
+  background: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.5333333333), rgba(0, 0, 0, 0.5333333333) 5.5px, rgba(17, 17, 17, 0.5333333333) 5.5px, rgba(17, 17, 17, 0.5333333333) 27.5px);
+}
+
+.bgModal {
+  background: rgb(6, 32, 60);
+  background: linear-gradient(60deg, rgb(6, 32, 60) 7%, rgb(54, 0, 64) 92%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#06203c", endColorstr="#360040", GradientType=1);
+  color: white;
+  border-radius: 20px;
+  box-shadow: 12px 20px 12px 0px rgba(0, 0, 0, 0.2);
+  border: none !important;
+}
+.bgModal h1 {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 400;
+}
+.bgModal h4 {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 300;
+}
+.bgModal label {
+  font-size: 15px;
+  font-family: "Roboto";
+}
+
+.inputTabla:disabled {
+  background-color: transparent;
+  border: none;
+  color: rgb(177, 177, 177);
+}
+
+.inputTabla {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  border: none;
+  border-bottom: 2px dotted white;
+  transition: 0.3s;
+}
+
+table button {
+  border: none;
+  margin: 0px 10px 0 10px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+  width: 50px;
+  height: 50px;
+  box-shadow: 10px 10px 21px -3px rgba(0, 0, 0, 0.25);
+}
+table button:hover {
+  background-color: rgb(31, 31, 31);
+  color: rgb(215, 215, 215);
+  box-shadow: 10px 10px 21px -3px rgba(0, 0, 0, 0.75);
+}
+table button:active {
+  background-color: rgb(154, 154, 154);
+}
+
+.btnDel {
+  background-color: rgb(94, 20, 20);
+  color: white;
+}
+
+.btnEdit {
+  background-color: rgb(17, 35, 93);
+  color: white;
+}/*# sourceMappingURL=style.css.map */
