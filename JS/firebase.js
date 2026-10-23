@@ -6,12 +6,12 @@ import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/fireb
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCQqxwOl4nBLYoY9WmUxbOFX-4GxFsOQFY",
-    authDomain: "calificacionesbd-60e98.firebaseapp.com",
-    projectId: "calificacionesbd-60e98",
-    storageBucket: "calificacionesbd-60e98.appspot.com",
-    messagingSenderId: "472891176099",
-    appId: "1:472891176099:web:cf9195343d549d8956bb16"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
 };
 
 // Initialize Firebase
